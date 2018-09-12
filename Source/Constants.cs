@@ -32,6 +32,8 @@ namespace Gastroliths
         public static ThingDef whatGastrolith()
         {
             float roll = Rand.Value;
+            roll %= 1.0f;
+
             //	Roll 1d20: 1-10 Nothing, 10-15 Chunks, 16 - Component, 17- Plastisteel, 18- Silver, 19-Gold, 20-Steel
             if (roll < .95f)
             {

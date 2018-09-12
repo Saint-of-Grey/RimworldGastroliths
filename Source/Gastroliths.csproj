@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Constants.cs" />
+    <Compile Include="HamonyMod.cs" />
     <Compile Include="Harmony.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -1,8 +1,6 @@
 ﻿using Harmony;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using Verse;
 
 namespace Gastroliths
@@ -33,8 +31,6 @@ namespace Gastroliths
                 __result = list;
                 return;
             }
-
-
         }
     }
 }
